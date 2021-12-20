@@ -32,7 +32,7 @@ $md3: 767.98;
 $md4: 479.98;
 
 $mainColor: #3a3a3a;
-$orangeColor: #e89f71;
+$orangeColor: #33adff;
 $grayColor: #898989;
 $darkGrayColor: #616161;
 
@@ -106,14 +106,14 @@ body {
 }
 //===================================================================================================================================
 .main-slider {
-	background: #fcf8f3;
+	background: #d9e5f2;
 	// .main-slider__container
 	&__container {
 		position: relative;
 		@media (min-width: $md2+px) {
 			&::before {
 				content: "";
-				background: #f9f1e7;
+				background: #a0bede;
 				position: absolute;
 				top: 0;
 				width: 100vw;
@@ -202,7 +202,7 @@ body {
 		width: 100%;
 		@media (any-hover: hover) {
 			&:hover {
-				background: #966749;
+				background: #00b3b3;
 			}
 		}
 	}
@@ -546,7 +546,7 @@ body {
 }
 //========================================================================================================================================================
 .rooms {
-	background: #fcf8f3;
+	background: #d9e5f2;
 	@include adaptiv-value("padding-top", 44, 30, 1);
 	@include adaptiv-value("padding-bottom", 44, 30, 1);
 	// .rooms__container
@@ -617,7 +617,7 @@ body {
 			height: 100%;
 			width: 100vw;
 			left: 0;
-			background-color: #fcf8f3;
+			background-color: #a0bede;
 			z-index: 2;
 			transform: translate(-100%, 0px);
 		}
@@ -829,6 +829,7 @@ body {
 	@include adaptiv-value("padding-bottom", 85, 40, 1);
 	// .furniture__container
 	&__container {
+		
 	}
 	// .furniture__label
 	&__label {
